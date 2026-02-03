@@ -1,10 +1,10 @@
 import React, { useEffect, useMemo, useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 
-const PRODUCT_API = "https://shreemarmo-backend.onrender.com/api/product";
-const CATEGORY_API = "https://shreemarmo-backend.onrender.com/api/category";
-const SUB_API = "https://shreemarmo-backend.onrender.com/api/subcategory";
-const BASE_URL = "https://shreemarmo-backend.onrender.com";
+const PRODUCT_API = "https://api.shreemmarmo.com/api/product";
+const CATEGORY_API = "https://api.shreemmarmo.com/api/category";
+const SUB_API = "https://api.shreemmarmo.com/api/subcategory";
+const BASE_URL = "https://api.shreemmarmo.com";
 
 const THEME = {
     primary: "#8D5660",

@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import QRCode from "qrcode";
 import { QrReader } from "react-qr-reader";
 
-const PRODUCT_API = "https://shreemarmo-backend.onrender.com/api/product/all"; // change if different
+const PRODUCT_API = "https://api.shreemmarmo.com/api/product/all"; // change if different
 const FRONT_BASE = "https://gleaming-meringue-40f261.netlify.app"; // your frontend base
 
 const THEME = {

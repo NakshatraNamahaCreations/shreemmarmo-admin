@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 
-const API = "https://shreemarmo-backend.onrender.com/api/category";
-const BASE_URL = "https://shreemarmo-backend.onrender.com";
+const API = "https://api.shreemmarmo.com/api/category";
+const BASE_URL = "https://api.shreemmarmo.com";
 
 const THEME = {
     primary: "#8D5660",

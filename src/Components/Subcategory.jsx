@@ -1,8 +1,8 @@
 import React, { useEffect, useMemo, useState } from "react";
 
-const SUB_API = "https://shreemarmo-backend.onrender.com/api/subcategory";   // ✅ change if needed
-const CAT_API = "https://shreemarmo-backend.onrender.com/api/category";      // ✅ category list
-const BASE_URL = "https://shreemarmo-backend.onrender.com";
+const SUB_API = "https://api.shreemmarmo.com/api/subcategory";   // ✅ change if needed
+const CAT_API = "https://api.shreemmarmo.com/api/category";      // ✅ category list
+const BASE_URL = "https://api.shreemmarmo.com";
 
 // ✅ Your color combo
 const THEME = {

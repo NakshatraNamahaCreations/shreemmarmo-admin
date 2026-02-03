@@ -1,9 +1,9 @@
 import React, { useEffect, useMemo, useState } from "react";
 
-const PRODUCT_API = "https://shreemarmo-backend.onrender.com/api/product";      // ✅ change if needed
-const CATEGORY_API = "https://shreemarmo-backend.onrender.com/api/category";    // ✅ for category dropdown
-const SUB_API = "https://shreemarmo-backend.onrender.com/api/subcategory";      // ✅ for subcategory dropdown
-const BASE_URL = "https://shreemarmo-backend.onrender.com";
+const PRODUCT_API = "https://api.shreemmarmo.com/api/product";      // ✅ change if needed
+const CATEGORY_API = "https://api.shreemmarmo.com/api/category";    // ✅ for category dropdown
+const SUB_API = "https://api.shreemmarmo.com/api/subcategory";      // ✅ for subcategory dropdown
+const BASE_URL = "https://api.shreemmarmo.com";
 
 // ✅ Your color combo
 const THEME = {

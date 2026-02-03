@@ -1,8 +1,8 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
-const PRODUCT_API = "https://shreemarmo-backend.onrender.com/api/product";
-const BASE_URL = "https://shreemarmo-backend.onrender.com";
+const PRODUCT_API = "https://api.shreemmarmo.com/api/product";
+const BASE_URL = "https://api.shreemmarmo.com";
 
 const THEME = {
     primary: "#8D5660",
