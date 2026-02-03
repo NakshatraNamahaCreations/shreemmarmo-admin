@@ -6,6 +6,7 @@ import Subcategory from "./Components/Subcategory";
 import Product from "./Components/Product";
 import Productdetails from "./Components/Productdetails";
 import Qrgenerate from "./Components/Qrgenerate";
+import Login from "./Components/Login";
 
 /** ✅ Header Component (active bg change using NavLink) */
 function Header() {
@@ -86,16 +87,15 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<LayoutWithHeader />}>
-          {/* <Route path="/" element={<Category />} /> */}
-          {/* <Route path="/Subcategory" element={<Subcategory />} /> */}
-          <Route path="/" element={<Product />} />
+
+          <Route path="/product" element={<Product />} />
           <Route path="/generate-qr" element={<Qrgenerate />} />
         </Route>
 
-        {/* ✅ NO Header here */}
         <Route path="/Productdetails/:id" element={<Productdetails />} />
+        <Route path="/" element={<Login />} />
 
-        {/* ✅ Not found */}
+
         <Route
           path="*"
           element={
